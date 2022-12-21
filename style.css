@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{font-size: 18px;}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background:rgb(113, 210, 245);
+    
+}
+.notes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.add{
+    position: fixed;
+    top: 5vh;
+    right: 10vh;
+    padding: 5px;
+    background-color: rgb(180, 208, 128);
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.note{
+    background-color: white;
+    box-shadow: 0px 0px 7px rgb(65, 67, 67);
+    height: 23rem;
+    width: 22rem;
+    margin:20px 20px;
+    border-radius: 5px; 
+    overflow: hidden;
+}
+
+.tool-bar{
+    padding: 0.6rem 0.5rem; 
+    text-align: right;
+    background-color:rgb(180, 208, 128);    
+}
+
+.icons{
+    font-size: 1rem;
+    margin-right: 0.8rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.main{
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    height: 100%; 
+}
+
+.note textarea{
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.note .hidden{
+    display: none;
+}
